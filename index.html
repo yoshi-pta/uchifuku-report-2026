@@ -3,191 +3,268 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>内副会長研修会 開催報告｜麻生区PTA協議会</title>
-<meta name="description" content="2026年8月9日、麻生市民館で開催した内副会長研修会「次の役員会が、ラクになる」の開催報告です。">
-<meta property="og:title" content="内副会長研修会 開催報告｜麻生区PTA協議会">
-<meta property="og:description" content="令和8年8月9日（日）麻生市民館。「次の役員会が、ラクになる」会議の進め方。">
+<title>開催しました。次の役員会が、ラクになる。｜麻生区PTA協議会</title>
+<meta name="description" content="2026年8月9日、麻生市民館で内副会長研修会を開催しました。覚えるのは「議題を問いにする」ひとつだけ。区内10校の役員が、模擬役員会で進行役を体験しました。">
+<meta property="og:title" content="開催しました。次の役員会が、ラクになる。">
+<meta property="og:description" content="令和8年8月9日・麻生市民館。はじめての司会でも大丈夫な、2時間の体験型研修です。">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://yoshi-pta.github.io/uchifuku-report-2026/photo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif; color:#1f2a37; font-size:11pt; line-height:1.7; background:#f7f5f2; }
+:root{
+  --paper:#f6f0e1;
+  --paper-deep:#eee5cf;
+  --ink:#3a342d;
+  --soft:#807664;
+  --yellow:#ffe26e;
+  --yellow-pale:#fff3b3;
+  --mint:#bce5cb;
+  --pink:#ffd1da;
+  --sky:#c9e4f6;
+  --marker:rgba(255,210,56,.85);
+  --green:#1e6f47;
+  --tape:rgba(255,255,255,.55);
+  --shadow:0 8px 18px rgba(76,62,38,.16);
+  --r:4px;
+  --disp:"Yusei Magic",sans-serif;
+  --body:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Hiragino Kaku Gothic ProN",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--body);
+  color:var(--ink);
+  line-height:1.95;
+  font-size:16.5px;
+  -webkit-text-size-adjust:100%;
+  background-color:var(--paper);
+  background-image:
+    radial-gradient(ellipse 120% 70% at 50% 0%, rgba(255,255,255,.5), transparent 60%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.45 0 0 0 0 0.38 0 0 0 0 0.26 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.wrap{max-width:640px;margin:0 auto;padding:0 22px;}
+section{padding:52px 0;}
+h1,h2,.disp{font-family:var(--disp);font-weight:400;}
+h2{font-size:1.55rem;line-height:1.55;text-align:center;margin-bottom:8px;}
+.squiggle{display:block;width:120px;margin:6px auto 28px;}
+.squiggle path{stroke:var(--green);stroke-width:3;fill:none;stroke-linecap:round;}
+.mk{background:linear-gradient(transparent 60%, var(--marker) 60%, var(--marker) 94%, transparent 94%);padding:0 2px;}
+a{color:var(--green);}
 
-  .page { max-width:760px; margin:0 auto; padding:28px 22px 64px; background:#fff; }
+.hero{padding:48px 0 20px;text-align:center;}
+.hero .org{
+  display:inline-block;
+  background:var(--tape);
+  border-left:1px dashed rgba(120,100,60,.3);
+  border-right:1px dashed rgba(120,100,60,.3);
+  padding:6px 22px;font-size:.85rem;
+  transform:rotate(-1.2deg);
+  box-shadow:0 2px 5px rgba(76,62,38,.1);
+  animation:enter .5s ease-out both;
+}
+.hero h1{
+  font-size:clamp(1.7rem, 6.4vw, 2.35rem);
+  line-height:1.45;
+  margin:22px 0 10px;
+  animation:enter .6s .08s ease-out both;
+}
+.hero .meta{
+  color:var(--soft);font-size:.95rem;
+  animation:enter .6s .16s ease-out both;
+}
+.shot{
+  margin:28px 0 8px;
+  transform:rotate(-0.6deg);
+  box-shadow:var(--shadow);
+  background:#fff;
+  padding:8px 8px 22px;
+  animation:enter .7s .22s ease-out both;
+}
+.shot img{display:block;width:100%;height:auto;}
+.shot .cap{font-size:.82rem;color:var(--soft);text-align:center;margin-top:8px;}
 
-  .runfoot { font-size:8pt; color:#9aa4b2; text-align:center; border-top:1px solid #e5e7eb; padding-top:10px; margin-top:28px; }
+.lead{
+  font-size:1.05rem;
+  text-align:center;
+  margin:8px 0 0;
+}
+.lead p+p{margin-top:1em;}
 
-  header { border-bottom:3px solid #1B4A6B; padding-bottom:10px; margin-bottom:16px; }
-  header .kicker { font-size:11pt; letter-spacing:1px; color:#1B4A6B; font-weight:700; }
-  header h1 { font-size:22pt; font-weight:800; margin-top:4px; line-height:1.35; }
-  header .meta { font-size:10pt; color:#6b7280; margin-top:6px; line-height:1.5; }
+.sticky{
+  background:var(--yellow);
+  padding:22px 22px 20px;
+  box-shadow:var(--shadow);
+  border-radius:var(--r);
+  position:relative;
+  margin:18px auto;
+  max-width:520px;
+}
+.sticky::before{
+  content:"";
+  position:absolute;top:-11px;left:50%;
+  width:86px;height:22px;
+  transform:translateX(-50%) rotate(-3deg);
+  background:var(--tape);
+  border-left:1px dashed rgba(120,100,60,.25);
+  border-right:1px dashed rgba(120,100,60,.25);
+}
+.sticky.mint{background:var(--mint);}
+.sticky.pink{background:var(--pink);}
+.sticky.sky{background:var(--sky);}
+.sticky.pale{background:var(--yellow-pale);}
+.tilt-l{transform:rotate(-1.4deg);}
+.tilt-r{transform:rotate(1.2deg);}
+.sticky .k{font-size:.82rem;color:var(--soft);letter-spacing:.04em;}
+.sticky .v{font-family:var(--disp);font-size:1.45rem;line-height:1.5;margin-top:6px;}
+.sticky p{margin-top:8px;}
 
-  .info { background:#f2f7fa; border-left:5px solid #1B4A6B; border-radius:8px; padding:12px 16px;
-    font-size:10.5pt; margin-bottom:16px; line-height:1.9; }
-  .info b { color:#1B4A6B; }
+.steps{list-style:none;margin:8px 0 0;}
+.steps li{
+  display:grid;grid-template-columns:2.2rem 1fr;
+  gap:10px;align-items:start;
+  padding:10px 0;
+  border-bottom:1px dashed rgba(120,100,60,.25);
+}
+.steps li:last-child{border-bottom:none;}
+.steps .n{
+  font-family:var(--disp);color:var(--green);font-size:1.35rem;line-height:1.2;
+}
 
-  h2.theme { font-size:14pt; font-weight:800; color:#fff; background:#1B4A6B; border-radius:7px;
-    padding:9px 16px; margin:20px 0 10px; }
-  h2.theme.t2 { background:#2563a6; }
-  h2.theme.t3 { background:#C2571A; }
-  h2.theme.t4 { background:#7c4fa8; }
-  h2.theme.t5 { background:#4b5563; }
-  p.tlead { font-size:10.5pt; color:#555; margin:4px 2px 12px; line-height:1.7; }
+.voices{display:grid;gap:16px;}
+.voices blockquote{
+  margin:0;
+  padding:16px 18px 14px;
+  font-size:.98rem;
+  line-height:1.75;
+  box-shadow:var(--shadow);
+  border-radius:var(--r);
+}
+.voices blockquote:nth-child(1){background:var(--yellow-pale);transform:rotate(-0.8deg);}
+.voices blockquote:nth-child(2){background:var(--mint);transform:rotate(1deg);}
+.voices blockquote:nth-child(3){background:var(--sky);transform:rotate(-0.5deg);}
+.voices blockquote:nth-child(4){background:var(--pink);transform:rotate(0.7deg);}
+.voices blockquote:nth-child(5){background:var(--yellow);transform:rotate(-1deg);}
 
-  h3.sub { font-size:12pt; font-weight:800; color:#1B4A6B; margin:16px 0 6px; }
+.tries{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;}
+.tries span{
+  background:#fff;
+  border:1px dashed rgba(120,100,60,.35);
+  padding:10px 14px;
+  font-size:.92rem;
+  box-shadow:0 4px 10px rgba(76,62,38,.08);
+}
+.tries span:nth-child(1){transform:rotate(-1.5deg);}
+.tries span:nth-child(2){transform:rotate(1.2deg);}
+.tries span:nth-child(3){transform:rotate(-.6deg);}
 
-  table { width:100%; border-collapse:collapse; font-size:10pt; margin:8px 0 14px; }
-  th,td { border:1px solid #d8dfe5; padding:7px 10px; text-align:left; vertical-align:top; }
-  th { background:#eef3f7; font-weight:700; color:#1B4A6B; }
-  td.num { text-align:center; font-weight:700; }
+.sign{text-align:right;margin-top:18px;line-height:1.8;}
+.foot{
+  text-align:center;
+  color:var(--soft);
+  font-size:.82rem;
+  padding:10px 0 40px;
+}
+.cta{
+  display:block;width:100%;max-width:360px;
+  margin:28px auto 0;padding:16px 20px;
+  background:var(--green);color:#fff;
+  text-align:center;text-decoration:none;
+  font-family:var(--disp);font-size:1.18rem;
+  border-radius:60px;
+  box-shadow:0 7px 0 #14492f, 0 14px 22px rgba(30,80,50,.25);
+  transition:transform .15s ease-out, box-shadow .15s ease-out;
+}
+.cta:hover,.cta:active{transform:translateY(3px);box-shadow:0 4px 0 #14492f, 0 8px 14px rgba(30,80,50,.25);}
+.cta small{display:block;font-family:var(--body);font-size:.78rem;opacity:.95;margin-top:2px;}
 
-  .kpi { display:flex; gap:10px; margin:10px 0 16px; flex-wrap:wrap; }
-  .kpi .c { flex:1; min-width:140px; border:1.5px solid #d8dfe5; border-radius:9px; padding:12px 8px; text-align:center; }
-  .kpi .c.hi { border:2px solid #C2571A; background:#FDF1E6; }
-  .kpi .c .v { font-size:22pt; font-weight:800; color:#1B4A6B; line-height:1.1; }
-  .kpi .c.hi .v { color:#C2571A; }
-  .kpi .c .l { font-size:9pt; color:#6b7280; margin-top:4px; line-height:1.4; }
+@keyframes enter{
+  from{opacity:0;transform:translateY(10px);}
+  to{opacity:1;transform:none;}
+}
 
-  ul,ol { margin:5px 0 10px 18px; }
-  li { margin-bottom:4px; font-size:10.5pt; line-height:1.7; }
-
-  blockquote { background:#f8fafb; border-left:4px solid #C2571A; border-radius:0 6px 6px 0;
-    padding:10px 14px; margin:8px 0; font-size:10.5pt; line-height:1.65; }
-
-  .note { background:#fff8f2; border:1.5px solid #e8c9a8; border-radius:8px; padding:12px 15px;
-    font-size:10.3pt; line-height:1.7; margin:10px 0; }
-  .note b { color:#C2571A; }
-
-  .sign { margin-top:22px; text-align:right; font-size:10.5pt; line-height:1.8; }
-
-  a { color:#2563a6; }
-
-  @media print {
-    body { background:#fff; font-size:10pt; }
-    .page { max-width:none; padding:0; }
-  }
+@media (max-width:420px){
+  body{font-size:16px;}
+  section{padding:40px 0;}
+}
 </style>
 </head>
 <body>
-<div class="page">
-
-<header>
-  <div class="kicker">麻生区PTA協議会　開催報告</div>
-  <h1>内副会長研修会「次の役員会が、ラクになる」</h1>
-  <div class="meta">令和8年8月9日（日）9:30〜11:30／麻生市民館 第一会議室　｜　作成: 令和8年8月10日（公開版は学校名を伏せています）</div>
+<header class="hero wrap">
+  <div class="org">麻生区PTA協議会　開催報告</div>
+  <h1>開催しました。<br>次の役員会が、<span class="mk">ラクになる。</span></h1>
+  <p class="meta">令和8年8月9日（日）9:30〜11:30<br>麻生市民館 第一会議室　／　区内10校の内副会長・会長</p>
+  <figure class="shot">
+    <img src="photo.jpg" alt="ホワイトボードと画面を囲んで、模擬役員会の進め方を確認している研修の様子">
+    <figcaption class="cap">模擬役員会の前に、進行の4ステップをみんなで確認しているところです</figcaption>
+  </figure>
 </header>
 
-<div class="info">
-<b>参加</b> 11名（内副会長10・会長1／10校）　｜　<b>運営</b> 講師=前村（会長）、スタッフ=林・田澤・三塚・森永<br>
-<b>形式</b> 3島・全席スクリーン横向き　｜　<b>費用</b> 講師料なし（内製）
-</div>
+<section class="wrap">
+  <p class="lead">日曜の朝、区内10校から11名が集まりました。<br>テーマは「みんなが話せる会議のつくり方」。</p>
+  <p class="lead">むずかしい言葉は使いません。<br>はじめて司会をする方でも、2時間後には「できそう」に変わっていました。</p>
+</section>
 
-<h2 class="theme">1. 結論 ― 次年度も同形式での継続を提案します</h2>
+<section class="wrap">
+  <h2>覚えて帰ったのは、<br>ひとつだけです</h2>
+  <svg class="squiggle" viewBox="0 0 120 12" aria-hidden="true"><path d="M2 8 C20 2, 40 12, 60 6 S100 2, 118 8"/></svg>
+  <div class="sticky tilt-l">
+    <div class="k">これだけ覚える</div>
+    <div class="v">議題を「問い」のかたちにする</div>
+    <p>「運動会について」ではなく、「誰が何を担当するか」。<br>問いがあると、配った瞬間から会議が始まります。</p>
+  </div>
+  <p class="lead" style="margin-top:22px;">残りは、持ち帰り用の進行カンペに全部書いてあります。<br>次の役員会に、そのまま持って行けるようにしました。</p>
+</section>
 
-<div class="kpi">
-  <div class="c hi"><div class="v">9.2</div><div class="l">推奨度 平均<br>（10点満点）</div></div>
-  <div class="c"><div class="v">6名</div><div class="l">10点満点<br>（回答9名中）</div></div>
-  <div class="c"><div class="v">82<span style="font-size:13pt">%</span></div><div class="l">アンケート<br>回収率</div></div>
-  <div class="c"><div class="v">全員</div><div class="l">「次に試すこと」<br>を具体的に記入</div></div>
-</div>
+<section class="wrap">
+  <h2>時間の半分以上は、<br>模擬役員会</h2>
+  <svg class="squiggle" viewBox="0 0 120 12" aria-hidden="true"><path d="M2 8 C20 2, 40 12, 60 6 S100 2, 118 8"/></svg>
+  <div class="sticky mint tilt-r">
+    <div class="k">4人1島で、順番に進行役</div>
+    <ol class="steps">
+      <li><span class="n">1</span><span>問いとゴールを確認する</span></li>
+      <li><span class="n">2</span><span>意見を出す</span></li>
+      <li><span class="n">3</span><span>並べて、絞る</span></li>
+      <li><span class="n">4</span><span>次の一手を決める</span></li>
+    </ol>
+  </div>
+  <p class="lead">島の4人が、1人ずつ進行役を体験します。<br>「文面でみると簡単だが、実際にやると緊張した」——座学だけでは得られない声でした。</p>
+</section>
 
-<p class="tlead">「他校の役員にもすすめたいか」を10点満点で尋ねたところ、平均9.2。<strong>NPS換算 +78</strong>（推奨者8・批判者1）で、一般に優良とされる+50を大きく上回りました。加えて、<strong>回答者全員が「次の役員会で試すこと」を具体的に記入</strong>しています。外部講師を招かず内製で実施したため、費用は発生していません。</p>
+<section class="wrap">
+  <h2>参加した方の声</h2>
+  <svg class="squiggle" viewBox="0 0 120 12" aria-hidden="true"><path d="M2 8 C20 2, 40 12, 60 6 S100 2, 118 8"/></svg>
+  <div class="voices">
+    <blockquote>とてもためになる研修でした。色々な事に生かせると思うので、参加して本当に良かったです。</blockquote>
+    <blockquote>PTAだけでなく、仕事や家庭でも役に立つ内容でした。進行役の内副だけでなく、他の方にも機会があれば研修を届けたいです。</blockquote>
+    <blockquote>すごく分かりやすかったです。会議という大きなものが、1つずつ意見や物事をまとめることで、すすめやすくなる気がしました。</blockquote>
+    <blockquote>最初は難しいなと思いましたが、各学校の内副さんと意見交換できる良い機会をいただきました。</blockquote>
+    <blockquote>文面でみると簡単だと思ったのですが、実際に出してみると緊張したりして。場数を踏んでいきたいと思いました。</blockquote>
+  </div>
+</section>
 
-<h2 class="theme t2">2. 数値</h2>
+<section class="wrap">
+  <h2>次の役員会で、試すこと</h2>
+  <svg class="squiggle" viewBox="0 0 120 12" aria-hidden="true"><path d="M2 8 C20 2, 40 12, 60 6 S100 2, 118 8"/></svg>
+  <p class="lead">参加したみなさんは、全員が「次に試すこと」を1つ書いて帰られました。<br>全部やらなくて大丈夫。1つで十分に変わります。</p>
+  <div class="tries" style="margin-top:22px;">
+    <span>問いとゴールを確認してから始める</span>
+    <span>ホワイトボードや付箋で、意見を見える化する</span>
+    <span>その場で決めなくてもいい。自分は司会だと意識する</span>
+  </div>
+  <p class="lead" style="margin-top:26px;">ほとんどの方が、「他校の役員にもすすめたい」と答えてくれました。</p>
+</section>
 
-<h3 class="sub">2-1. 推奨度（他校の役員にもすすめたいと思いますか）</h3>
-<table>
-<tr><th style="width:22%">点数</th><th style="width:18%">人数</th><th>備考</th></tr>
-<tr><td class="num">10点</td><td class="num">6名</td><td>—</td></tr>
-<tr><td class="num">9点</td><td class="num">2名</td><td>1名は「仕事・職場で研修を受けたり実践している人には必要ないかなと思うので10じゃなくて9」と付記</td></tr>
-<tr><td class="num">5点</td><td class="num">1名</td><td>自由記述は空欄（§5で後述）</td></tr>
-<tr><th>平均</th><th colspan="2">9.2 ／ 中央値 10</th></tr>
-</table>
+<section class="wrap">
+  <h2>ありがとうございました</h2>
+  <svg class="squiggle" viewBox="0 0 120 12" aria-hidden="true"><path d="M2 8 C20 2, 40 12, 60 6 S100 2, 118 8"/></svg>
+  <p class="lead">日曜の朝にもかかわらずご参加いただいたみなさま、各島に入って支えてくださった区P役員の林さん・田澤さん・三塚さん・森永さんに、心より御礼申し上げます。</p>
+  <p class="lead">同じ紙を持っている仲間が、区内にできました。<br>来年度も、同じかたちで開催する予定です。</p>
+  <a class="cta" href="mailto:asao.ku.pta.00@gmail.com">区内のPTA役員のみなさまへ<small>ご興味があれば、区P協議会まで</small></a>
+  <p class="sign">麻生区PTA協議会<br>会長　前村　嘉昭</p>
+</section>
 
-<h3 class="sub">2-2. 「次の役員会で試すこと」（回答者全員が記入）</h3>
-<p class="tlead">本研修のねらいは「持ち帰って1つ試してもらう」ことでした。記入内容は3つに集約されます。</p>
-<table>
-<tr><th style="width:34%">内容</th><th style="width:12%">人数</th><th>記入例</th></tr>
-<tr><td><b>問い・ゴールの明確化</b></td><td class="num">4名</td><td>「問いとゴールを確認する。次第の作り方も変えて（試して）行きたい」</td></tr>
-<tr><td><b>意見の見える化</b><br>（付箋・ホワイトボード）</td><td class="num">4名</td><td>「ホワイトボード等使っていなかったので、意見の可視化をしようと思います」</td></tr>
-<tr><td><b>司会としての構え</b></td><td class="num">1名</td><td>「その場で決めなくてもいい。自分は司会というのを意識して司会をしたい」</td></tr>
-</table>
-
-<div class="note">
-設計上のねらい（<b>覚えるのは「議題を問いにする」1つだけ</b>）が、そのまま参加者の行動宣言として返ってきています。研修の成否は満足度ではなく<b>「翌月の役員会が変わるか」</b>で決まるため、この点をもって成功と判断します。
-</div>
-
-<h2 class="theme t3">3. 参加者の声</h2>
-
-<blockquote>とてもためになる研修でした。色々な事に生かせると思うので参加して本当に良かったです。</blockquote>
-
-<blockquote>PTAだけでなく、仕事や家庭でも役に立つ内容でした。進行役の内副だけでなく他の方にも機会があれば研修提供していただきたいです。</blockquote>
-
-<blockquote>すごく分かりやすかったです。会議という大きなものが、1つずつ意見や物事をまとめる事で、すすめやすい会議になる気がしました。</blockquote>
-
-<blockquote>役員会の進め方も参考になりましたが、役員さん（人）への対応・受けこたえの仕方もとても参考になりました。</blockquote>
-
-<blockquote>最初難しいなと思いましたが、各学校の内副さんと意見交換できる良い機会を頂いたと思いました。今後も継続して頂きたいと思います。</blockquote>
-
-<blockquote>文面でみると簡単だと思ったのですが、実際に出してみると緊張したりしてうまくいかなかったり。場数を踏んでいきたいと思いました。</blockquote>
-
-<blockquote>貴重な機会をありがとうございました。他校の状況を聞けたのもとても良かったです。</blockquote>
-
-<h2 class="theme t4">4. 何が効いたか（次年度への引き継ぎ）</h2>
-
-<h3 class="sub">① 「覚えるのは1つだけ」に絞った</h3>
-<p class="tlead">会議進行の技術は膨大ですが、<strong>「議題を問いのかたちにする」の1点だけ</strong>を覚えてもらう設計とし、残りはすべて持ち帰り用の<strong>「進行カンペ」（A4 2枚）</strong>に逃がしました。結果、全員が「次に試すこと」を1つ書けています。詰め込んでいたら、こうはなりません。</p>
-
-<h3 class="sub">② 時間の半分以上を「模擬役員会」に充てた</h3>
-<p class="tlead">120分のうち<strong>45分</strong>を模擬役員会に配分。島の4人が①問いとゴール確認→②意見出し→③整理→④合意を1人ずつリレーで担当し、<strong>全員が進行役を1回経験</strong>する設計としました。「文面でみると簡単だが、実際にやると緊張した」という声は、<strong>座学だけでは得られなかった気づき</strong>です。ここが本研修の核でした。</p>
-
-<h3 class="sub">③ 「ファシリテーション」という言葉を最後まで使わなかった</h3>
-<p class="tlead">冒頭で専門用語を出すと身構えられるため、全編「みんなが話せる会議のつくり方」で通し、<strong>閉会時にはじめて種明かし</strong>をしました。新任の方が多い研修では、この配慮が参加のハードルを下げます。</p>
-
-<h3 class="sub">④ 他校の内副会長同士がつながった</h3>
-<p class="tlead">「他校の状況を聞けたのが良かった」「各学校の内副さんと意見交換できる良い機会」という声がありました。<strong>効率だけでは測れない価値</strong>です。同じ資料を持つ仲間が区内に10人できました。</p>
-
-<h2 class="theme t5">5. 課題と改善提案</h2>
-
-<h3 class="sub">5点をつけた1名について</h3>
-<div class="note">
-1名が<b>5点</b>（他は9〜10点）。自由記述は空欄でした。推測は避け、回答から読み取れる事実のみ記します。<br>
-・「1人ずつに意見を聞いてみる」と<b>具体的な行動宣言は記入</b>されている（研修内容自体は届いている）<br>
-・「色々な学校の意見が聞けておもしろかった」と<b>交流面は評価</b>されている<br><br>
-<b>改善案</b>：現状は最後の振り返りシートまで参加者の温度が分かりません。<b>模擬会議の直後に一言ずつ聞く時間</b>を設ければ、その場で状況を把握し対応できた可能性があります。
-</div>
-
-<table>
-<tr><th style="width:30%">改善提案</th><th>根拠・内容</th></tr>
-<tr><td><b>対象の拡大</b></td><td>「進行役の内副だけでなく他の方にも機会があれば」という声。会長・書記・委員長にも有効な内容です</td></tr>
-<tr><td><b>フォローアップの場</b></td><td>「場数を踏んでいきたい」という声。半年後に「試してみてどうだったか」を持ち寄る会があれば定着します</td></tr>
-<tr><td><b>開催日程の早期確定</b></td><td>当初6/27→台風で延期→8/9。日程確定が直前となり、各校への案内が慌ただしくなりました</td></tr>
-<tr><td><b>参加率の向上</b></td><td>各校1名として11名参加。区内校数に対する参加率を上げる余地があります</td></tr>
-</table>
-
-<h2 class="theme">6. 教材資産 ― 次年度はそのまま再演できます</h2>
-<table>
-<tr><th style="width:34%">資料</th><th style="width:26%">体裁</th><th>備考</th></tr>
-<tr><td>① 当日レジュメ</td><td>A4両面1枚</td><td>流れ・4ステップ・場づくりのコツ</td></tr>
-<tr><td><b>② 進行カンペ</b></td><td>A4 2枚（3ページ）</td><td><b>持ち帰り用の本体</b>。決め方のパターン／こまったときのセリフ集／強い感情への対応</td></tr>
-<tr><td>③ 振り返りシート</td><td>A4片面</td><td>本報告の元データ</td></tr>
-<tr><td>④ 宣言カード</td><td>ハガキサイズ</td><td>次の会議で試す1つを記入</td></tr>
-<tr><td>⑤ サンプルアジェンダ</td><td>A4両面</td><td>次第を持参しなかった方向け</td></tr>
-<tr><td>⑥ 当日進行案（スタッフ用）</td><td>A4 3ページ</td><td>スタッフ用（非公開）</td></tr>
-<tr><td>⑦ 投影スライド</td><td>30枚</td><td>改変可能な形式で保管</td></tr>
-<tr><td>⑧ まとめ1枚</td><td>A4片面</td><td>事後配信用のインフォグラフィック</td></tr>
-</table>
-<p class="tlead">日程と名簿を差し替えるだけで再演できる状態で保管しています。</p>
-
-<h2 class="theme t5">7. 御礼</h2>
-<p class="tlead">日曜の朝という時間帯にもかかわらず、10校11名の内副会長・会長にご参加いただきました。運営にあたっていただいた区P役員の林さん・田澤さん・三塚さん・森永さんに、この場を借りて御礼申し上げます。各島に入っていただいたことで、模擬役員会が滞りなく進行できました。</p>
-
-<div class="sign">
-麻生区PTA協議会<br>
-会長　前村　嘉昭
-</div>
-
-<div class="runfoot">麻生区PTA協議会　内副会長研修会 開催報告（令和8年8月9日実施）／公開版は学校名を伏せています</div>
-
-</div>
+<p class="foot">麻生区PTA協議会　内副会長研修会（令和8年8月9日）</p>
 </body>
 </html>
